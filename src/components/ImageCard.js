@@ -9,7 +9,6 @@ export default class ImageCard extends Component {
 
     componentDidMount() {
         this.imageRef.current.addEventListener('load', this.setSpans);
-        console.log("Hello")
     }
 
     setSpans = () => {
